@@ -1,0 +1,32 @@
+To run the programme use the following command->
+perl sort.perl RULEFILE
+
+This programme sort the rules of the transfergrammar engine in a decreasing order based on the number of chunks in the LHS side of the rule i.e the rules are ordered from more specific to general rules.
+
+For a test case run the following->
+perl sort.pl test1
+1. This will convert the rules in the test1 file in a sorted order and will output the re-ordered rules in the test1-modified file.
+2. To run the transfer grammar system with new sorted file use the test1-modified file as the rule file.
+   run following commands to replace the old rulefile with the new modified rulefile->	
+   a) cp RULEFILE Old_RULEFILE
+   b) cp RULEFILE-modified RULEFILE
+
+
+Specific To General Criteria-
+A rule "A" is said to be more specific than rule "B" if all the constraints/conditions satisfied by rule "B" are satisfied by "A" but all the constraints/conditions satisfied by rule "A" are not satusfied by rule "B".
+Example
+R1: NP~1 NP~2 VGF => NP~1 VGF NP~2
+R2: NP~1 NP~2 NP~3 VGF => NP~1 NP~2 VGF NP~3
+
+So rule R2 is more specific than rule R1 since it satisfies more constraints hence the tool(sort.perl) will re-order the rules accordingly as
+R2: NP~1 NP~2 NP~3 VGF => NP~1 NP~2 VGF NP~3
+R1: NP~1 NP~2 VGF => NP~1 VGF NP~2
+
+######################################
+Author: Piyush Arora
+Language Technologies Research Centre
+IIIT Hyderabad
+Any Queries or suggestions mail to
+piyusharora@students.iiit.ac.in
+######################################
+

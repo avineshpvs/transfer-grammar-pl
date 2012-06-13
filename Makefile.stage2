@@ -1,0 +1,41 @@
+#
+# Makefile -- compiling/copying/install/uninstall the module
+#
+
+PREFIX = $(setu)
+
+# Binary Program and Binary Data files and directories.(These are required to run system)
+DEST_BIN_PROG_DIR = $(PREFIX)/bin/sl_tl/transfergrammar
+DEST_BIN_DATA_DIR = $(PREFIX)/data_bin/sl_tl/transfergrammar
+CPFR = cp -fr
+
+# make all -- make programs, data, library, documentation, etc.
+all:
+
+install:install-src install-data
+
+install-src:
+	mkdir -p $(DEST_BIN_PROG_DIR)
+	$(CPFR) common src tests README transfergrammar.pl doc API ChangeLog $(DEST_BIN_PROG_DIR)
+	$(CPFR) transfergrammar_run.sh transfergrammar.sh transfergrammar.spec $(DEST_BIN_PROG_DIR)
+
+install-data:
+	mkdir -p $(DEST_BIN_DATA_DIR)
+	$(CPFR) Rules $(DEST_BIN_DATA_DIR)
+
+# make train -- Train the transfergrammar engine
+train:
+	sh transfergrammar_train.sh
+
+# make compile -- Compiles the source code as well as the data
+# compile: compile-exec compile-data
+
+# make install -- Install what all needs to be installed, copying the files from the packages tree to systemwide directories.# it installs the engine and the corpus, dictionary, etc.
+
+
+# remove the module files from sampark
+clean:uninstall
+uninstall:
+	rm -fr $(DEST_BIN_PROG_DIR) $(DEST_BIN_DATA_DIR)
+
+.PHONY: all clean install uninstall install-src install-data

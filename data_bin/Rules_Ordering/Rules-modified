@@ -1,0 +1,14 @@
+R7: NP~1(({<cm="ki">})) JJP => NP~1(({<cm="^ke_liye">}))
+R4: NP~1(({<case="o",cm="0">})) NP~2 => NP~1(({<case="o",cm="^kA">})) NP~2
+R16: JJP(({<root="$y.wa",lcat="adj">})) VGF(({hE%VAUX})) => JJP(({<root="$y.wamE",lcat="adj">})) VGF
+R5: NP~1(({<cm="A">})) NP~2(({<cm="A">})) => NP~1(({<cm="0">})) +CCP(({^Ora%CC<root="^Ora",lcat="conj">})) NP~2(({<cm="A">}))
+R14: NP(({<lcat="num">}{<root="BAgaM",tam="gA">})) => NP(({<lcat="num">}{<tam="lo">}))
+R12: VGF(({uMxi%VM})) => VGF(({<root="^hE",tam="^hE">}))
+R17: NP(({x1:}{x2:<root="$x.3">}{x3:})) => NP(({x1:}{x3:}{x2:}))
+R11: NP(({<root="wUrpu",lcat="n",cm="na">})) => NP(({<root="wUrpu",lcat="n",cm="lo">}))
+R2: VGF(({<tam="$x._A_ani">})) => VGF(({<tam="$x">})) +NP(({^Isiliye%PSP<root="^Isiliye",lcat="psp">}))
+R8: NP(({<root="uwwaraM",lcat="n",cm="na">})) => NP(({<root="uwwaraM",lcat="n",cm="lo">}))
+R1: VGF(({<tam="$x._ani">})) => VGF(({<tam="$x">})) +NP(({ani%PSP<root="ani",lcat="psp">}))
+R9: NP(({<root="paScima",lcat="n",cm="na">})) => NP(({<root="paScima",lcat="n",cm="lo">}))
+R10: NP(({<root="xakRiNaM",lcat="n",cm="na">})) => NP(({<root="xakRiNaM",lcat="n",cm="lo">}))
+R13: VGF(({unnAdu%VM})) => VGF(({<root="^hE",tam="^hE">}))

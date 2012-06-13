@@ -1,0 +1,5 @@
+#Rule for Ani Construction
+#input1
+R0:NP~1 VGF NP~2 => NP~1 NP~2 VGF	#scvksv
+#R0: NP~1 NP~2 NP~3(({ca})) => NP~1 NP~3 NP~2
+R1: NP~1(({<drel=k1>})) => NP~1(({<drel=k3>}))

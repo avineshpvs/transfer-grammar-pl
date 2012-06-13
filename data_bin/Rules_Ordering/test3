@@ -1,0 +1,9 @@
+#rule file
+R0: NP*=>PSP	#print
+R1: VGF RB => RB VGF
+R2: NP~1 NP~2(({ca})) NP~3 NP~4(({ca})) => NP~1 NP~4 NP~3
+R3:	NP~1 VGF NP~2 => NP~1 NP~2 VGF	#test
+R4: NP~1 NP~2(({ca})) VGF => NP~2 VGF NP~1
+R5: NP(({<poslcat="NM">})) => NP +PSP(({piyush}))
+R6: VGF JJ NP~1 => JJ NP~1 VGF
+R7: NP~1(({%NNP})) NP~2(({ubhayataH})) => NP~1(({%NNP}+{ke%PSP})) NP~2

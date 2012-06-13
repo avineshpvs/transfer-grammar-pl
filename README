@@ -1,0 +1,36 @@
+						Transfer Grammar 2.4.5 
+						----------------------
+Transfer Grammar : 
+
+
+How to Use??
+------------
+
+1. perl $setu/bin/sl_tl/transfergrammar/transfergrammar.pl \ 
+   --path=$setu/bin/sl_tl/transfergrammar \
+   --logfile=$setu/bin/sl_tl/transfergrammar/transfer.log \ 
+   --resource=$setu/data_bin/sl_tl/transfergrammar/RULE \
+   --input=$setu/bin/sl_tl/transfergrammar/tests/transfergrammar.rin
+   
+   *resource is the RULE file in the "data_bin" dir
+
+   *sample input and output files are provided in the tests dir namely
+    transfergrammar.rin transfergrammar.rout.
+
+2. perl $setu/bin/sl_tl/transfergrammar/transfergrammar.pl --help
+   for display the help
+
+
+How to Write Rules
+------------------
+
+ Check section 4.3.3 in doc/transfer-grammar-guidelines-11-07-2009.doc
+
+######################################
+Author: Piyush Arora
+Language Technologies Research Centre
+IIIT Hyderabad
+Any Queries or suggestions mail to
+piyusharora@students.iiit.ac.in
+######################################
+

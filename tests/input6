@@ -1,0 +1,7 @@
+1	((	NP	<fs af='ikkadA,n,,,,0,,' head="ikkadA" name="ikkadA">
+1.1	ikkadA	NN	<fs af='ikkadA,n,,,,0,,' name="ikkadA" name="ikkadA">
+	))		
+2	((	VGF	<fs af='uMdu,v,,,,,wA,' head="uMxi" name="uMdu">
+2.1	uMxi	VM	<fs af='uMdu,v,,,,,wA,' name="uMdu" name="uMxi">
+2.2	.	SYM	
+	))		

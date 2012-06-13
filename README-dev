@@ -1,0 +1,59 @@
+						Transfer Grammar 2.4.3 
+						-----------------------
+Transfer Grammar : 
+
+Requirements:
+------------
+Operating System		:    LINUX/UNIX system
+
+Compiler/Interpreter/Librarie(s):    Perl and SSF API's
+
+For installation on Linux, please refer to the file INSTALL.
+
+Directory Structure:
+--------------------
+
+transfergrammar
+     |
+     |---src (functional source code of the transfergrammar)
+     |    
+     |---data_bin (data bin files)
+     |     |
+     |     |---Rules (Transfer Rules)
+     |	  
+     |---API (SSF API's)
+     |
+     |---tests (contains the referenece input and output)
+     |
+     |---doc (documentation of the transfergrammar rules specification)
+     |
+     |---README (How to run/use the module)
+     |
+     |---INSTALL (How to install in sampark directory structure)
+     |
+     |---ChangeLog (version information)
+     |
+     |---Makefile (first level make file for copying the module source in sampark system)
+     |
+     |---Makefile.stage2 (2nd level make file for actual installation/copying in the bin and data_bin directory)
+     |
+     |---transfergrammar_run.sh (to run the transfergrammar module)
+     |
+     |---transfergrammar_train.sh (to train the transfergrammar module)
+     |
+     |---transfergrammar.sh (for the use of dashboard spec file)
+     |
+     |---transfergrammar.spec (individual transfergrammar module runs with dashboard)
+     |
+     |---transfergrammar.pl (main file of transfergrammar)
+
+
+
+######################################
+Author: Piyush Arora
+Language Technologies Research Centre
+IIIT Hyderabad
+Any Queries or suggestions mail to
+piyusharora@students.iiit.ac.in
+######################################
+

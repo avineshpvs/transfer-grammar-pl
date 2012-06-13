@@ -1,0 +1,24 @@
+<Sentence id="1">			
+1	((	NP	<fs af='mGl,adj,m,sg,,d,,' head="mGl"  poslcat="NM">
+1.1	ambYr	XC	<fs af='ambYr,n,m,sg,,d,,'>
+1.2	mHl	XC	<fs af='mHl,n,m,sg,,d,,'>
+1.3	mGl	NN	<fs af='mGl,adj,m,sg,,d,,' name="mGl"  poslcat="NM">
+	))		
+2	((	CCP	<fs af='avr,avy,,,,,,' head="avr">
+2.1	avr	CC	<fs af='avr,avy,,,,,,' name="avr">
+	))		
+3	((	NP	<fs af='bYmXal,adj,m,sg,,d,,' head="bYmXal"  poslcat="NM">
+3.1	hndv	NNP	<fs af='hndv,n,m,sg,,d,,'>
+3.2	fn3	XC	<fs af='fn3,n,m,sg,,d,,'>
+3.3	tEmyr	NN	<fs af='tEmyr,n,f,sg,,d,,'>
+3.4	ka	PSP	<fs af='ka,psp,,,,,,'>
+3.5	bYmXal	NN	<fs af='bYmXal,adj,m,sg,,d,,' name="bYmXal"  poslcat="NM">
+	))		
+4	((	JJP	<fs af='nmvnh,adj,m,sg,,d,,' head="nmvnh">
+4.1	nmvnh	JJ	<fs af='nmvnh,adj,m,sg,,d,,' name="nmvnh">
+	))		
+5	((	VGF	<fs af='hY,v,any,sg,2,,hE,hE' head="hY">
+5.1	hY	VM	<fs af='hY,v,any,sg,2,,hE,hE' name="hY">
+5.2	.	SYM	<fs af='.,punc,,,,,,' poslcat="NM">
+	))		
+</Sentence>			

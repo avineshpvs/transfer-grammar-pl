@@ -1,0 +1,29 @@
+<Sentence id="1">
+1	((	RBP	<fs af='33:,num,,,,,,' poslcat="NM" head="33:">
+1.1	33:	RB	<fs af='33:,num,,,,,,' poslcat="NM" name="33:">
+	))		
+2	((	NP	<fs af='golPa,unk,,,,,,' poslcat="NM" head="golPa">
+2.1	yahAz	PRP	<fs af='yahAz,adv,,,,,,' poslcat="NM">
+2.2	golPa	XC	<fs af='golPa,unk,,,,,,' poslcat="NM" name="golPa">
+	))		
+3	((	VGF	<fs af='KilA,v,m,sg,any,,^adaM,yA' head="KilAyA">
+3.1	KilAyA	VM	<fs af='KilA,v,m,sg,any,,^adaM,yA' name="KilAyA">
+	))		
+4	((	NP	<fs af='^e,adv,,,,,,' poslcat="NM" head="hI">
+4.1	hI	RP	<fs af='^e,adv,,,,,,' poslcat="NM" name="hI">
+	))		
+5	((	CCP	<fs af='^gAka,avy,,,,,,' head="balki">
+5.1	balki	CC	<fs af='^gAka,avy,,,,,,' name="balki">
+	))		
+6	((	VGF	<fs af='siKA,v,m,sg,any,,^adaM,yA' head="siKAyA">
+6.1	siKAyA	VM	<fs af='siKA,v,m,sg,any,,^adaM,yA' name="siKAyA">
+	))		
+7	((	NP	<fs af='BI,avy,,,,,,' head="BI">
+7.1	BI	RP	<fs af='BI,avy,,,,,,' name="BI">
+	))		
+8	((	VGF	<fs af='^jarugu,v,m,sg,any,,^wunn,wA' head="jAwA">
+8.1	jAwA	VAUX	<fs af='^jarugu,v,m,sg,any,,^wunn,wA' name="jAwA">
+8.2	hE	VAUX	<fs af='hE,v,any,sg,2,,hE,hE'>
+8.3	.	SYM	<fs af='.,punc,,,,,,' poslcat="NM">
+	))		
+</Sentence>

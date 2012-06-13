@@ -1,0 +1,25 @@
+1	((	NP	<fs af='ਇੱਥੋਂ,adv,,,,,,' head='ਇੱਥੋਂ' name='1' poslcat='NM'>
+1.1	ਇੱਥੋਂ	PRP	<fs af='ਇੱਥੋਂ,adv,,,,,,' poslcat='NM' name='ਇੱਥੋਂ' synsetid='600319'>
+	))
+2	((	NP	<fs af='ਲੇਹ,n,f,sg,3,o,0_ਤੱਕ_ਦਾ,' vpos='vib1_2_3' head='ਲੇਹ' drel='r6:3' name='2'>
+2.1	ਲੇਹ	NNP	<fs af='ਲੇਹ,n,f,sg,3,o,,' name='ਲੇਹ' synsetid='25870'>
+	))
+3	((	NP	<fs af='ਸਫਰ,n,m,sg,3,d,,' head='ਸਫਰ' name='3'>
+3.1	ਸਫਰ	NN	<fs af='ਸਫਰ,n,m,sg,3,d,,' name='ਸਫਰ' synsetid='3285'>
+3.2	ਵੀ	RP	<fs af='ਵੀ,avy,,,,,,'>
+	))
+4	((	JJP	<fs af='ਤਕਰੀਬਨ,adj,,,,,,' head='ਤਕਰੀਬਨ' drel='nmod:5' name='4'>
+4.1	ਤਕਰੀਬਨ	JJ	<fs af='ਤਕਰੀਬਨ,adj,,,,,,' name='ਤਕਰੀਬਨ'>
+	))
+5	((	NP	<fs af='ਦਿਨ,n,m,sg,3,d,,' head='ਦਿਨ' name='5'>
+5.1	ਪਹਿਲੇ	QO	<fs af='ਪਹਿਲਾ,adj,m,sg,,o,,' poslcat='NM' synsetid='6963'>
+5.2	ਦਿਨ	NN	<fs af='ਦਿਨ,n,m,sg,3,d,,' name='ਦਿਨ' synsetid='13162'>
+	))
+6	((	JJP	<fs af='ਹੀ,avy,,,,,,' head='ਹੀ' name='6'>
+6.1	ਜਿੰਨਾ	QF	<fs af='ਜਿੰਨਾ,adj,m,sg,,d,,' poslcat='NM' synsetid='5607'>
+6.2	ਹੀ	RP	<fs af='ਹੀ,avy,,,,,,' name='ਹੀ'>
+	))
+7	((	VGNN	<fs af='ਹੈ,v,any,any,any,,ਣ_ਲਈ,' head='ਹੈ' name='7' poslcat='NM'>
+7.1	ਹੈ	VM	<fs af='ਹੈ,v,any,any,any,,ਣ,' poslcat='NM' name='ਹੈ' synsetid='600000'>
+7.2	.	SYM	<fs af='&sdot;,punc,,,,,,'>
+	))

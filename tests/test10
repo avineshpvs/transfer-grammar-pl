@@ -1,0 +1,21 @@
+1	((	NP
+1.1	a	NN
+1.2	b	PSP	
+1.3	c	PSP
+1.4	d	PSP	<fs af='d,n,,,,,,'>
+	))
+2	((	VGF
+2.1	n	VG
+	))
+3	((	VGF
+3.1	m	VG
+3.2	m1	VAUX
+3.3	m2	VAUX
+	))
+2	((	NP
+2.1	e	NN
+2.2	f	NN
+2.3	g	NN
+2.4	h	NN
+	))
+

@@ -1,0 +1,5 @@
+#Rule for Ani Construction
+#input1
+R0: NP~1  VGF  =>  VGF    NP~1
+#R1: NP~1 NP~2 NP~3(({ca})) => NP~1 NP~3 NP~2
+R2:    NNP~1((%NN)) VGF NP~2=>VGF NP~1 NP~2

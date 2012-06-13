@@ -1,0 +1,75 @@
+13-11-2011  Piyush Arora  <piyusharora@students.iiit.ac.in>,<piyusharora07@gmail.com>
+
+	* Version 2.4.5
+	
+	1. A tool in the folder Rules_Ordering has been added in the data_bin directory which gives the rules developer an option to sort the rules based 		on specific to general criteria.
+	2. The above mentioned specific to general criteria has also been documented and is present in the README file in the Rules_Ordering folder in the data_bin directory.
+	
+
+12-11-2011  Piyush Arora  <piyusharora@students.iiit.ac.in>,<piyusharora07@gmail.com>
+
+	* Version 2.4.4
+
+	1. Changes in transfergrammar_run.sh -
+	a) Name of rule file changed from Rule to Rules as it was giving error while running same.
+	b) There were issues coming with --log=transfer.log while running so it has been removed.
+	2. Change in transfergrammar.sh 
+	a) There were issues coming with --log=transfer.log while running so it has been removed.
+
+
+17-3-2009  Avinesh PVS  <avinesh@students.iiit.ac.in>,<avinesh.pvs@gmail.com>
+
+	* Version 2.4.3
+
+	1. Change in match_rule.pl and the load.pl. To accept any character
+	rather than ascii values.
+	2. It can work with "0	((	SSF" in the input format.
+
+12-3-2009  Avinesh PVS  <avinesh@students.iiit.ac.in>,<avinesh.pvs@gmail.com>
+
+	* Version 2.4.1
+
+	1.Small correction in the directories sl-tl has been changed to sl_tl
+	
+
+6-3-2009  Avinesh PVS  <avinesh@students.iiit.ac.in>,<avinesh.pvs@gmail.com>
+
+	* Version 2.4
+
+	1. New notation for the Movement of Words
+	   Example Rule 18 and test file tests/input10
+	   NP~1(({x1:}{x2:<root="$x.3">}{x3:})) => NP~1(({x1:}{x3:}{x2:})) 
+	   X2 and X3 are reordered.
+
+	2. Small Correction in matching ($x.3 to $x.3$)
+	
+	3. Logging updated.
+
+11-2-2009  Avinesh PVS  <avinesh@students.iiit.ac.in>,<avinesh.pvs@gmail.com>
+
+	* Version 2.3
+
+	1. Heads recalulated.
+
+
+11-12-2008  Avinesh PVS  <avinesh@students.iiit.ac.in>,<avinesh.pvs@gmail.com>
+
+	* Version 2.2
+
+	1. Changes of rule application when the node is inserted.
+	2. Reordering of the chunks.
+	3. Deletion of the chunks.
+	4. Addition of the chunk @ the End of the tree.
+
+23-09-2008  Avinesh PVS  <avinesh@students.iiit.ac.in>,<avinesh.pvs@gmail.com>
+
+	* Version 2.1
+	
+	1. Some more bugs have been removed regarding the Rule parsing.
+
+18-06-2008  Avinesh PVS  <avinesh@students.iiit.ac.in>,<avinesh.pvs@gmail.com>
+
+	* Version 2.0
+
+	1. Modifications regarding the Rule parsing and application.
+	

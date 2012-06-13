@@ -1,0 +1,19 @@
+1	((	NP	<fs af='rAma,n,,,,o,adj_vAdu,' head="rAmudu">
+1.1	rAmudu	NNP	<fs af='rAma,n,,,,o,adj_vAdu,' name="rAmudu">
+	))		
+2	((	NP	<fs af='mohanvalYlu,unk,,,,,,' head="mohanvalYlu">
+2.1	mohanvalYlu	NN	<fs af='mohanvalYlu,unk,,,,,,' name="mohanvalYlu">
+	))		
+3	((	NP	<fs af='pani,n,,s,,0,0_V,' head="panI">
+3.1	panI	NN	<fs af='pani,n,,s,,0,0_V,' name="panI">
+	))		
+4	((	VGF	<fs af='ceVyyi,v,,,23_,0,wunn,' head="ceswunnArani">
+4.1	ceswunnArani	VRB	<fs af='ceVyyi,v,,,23_,0,wunn,' name="ceswunnArani">
+	))		
+5	((	NP	<fs af='ani,psp,,,,,,' head="ani">
+5.1	ani	PSP	<fs af='ani,psp,,,,,,' name="ani">
+	))		
+6	((	VGF	<fs af='ceppedu,v,,,,,,' head="ceppedu">
+6.1	ceppedu	VFM	<fs af='ceppedu,v,,,,,,' name="ceppedu">
+6.2	.	SYM	
+	))		

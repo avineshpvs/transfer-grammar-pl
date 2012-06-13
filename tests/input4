@@ -1,0 +1,10 @@
+1	((	NP	<fs af='rAma,n,,,,d,A,' head="rAmA" name="rAmA">
+1.1	rAmA	NNP	<fs af='rAma,n,,,,d,A,' name="rAmA" name="rAmA">
+	))		
+2	((	NP	<fs af='siwA,n,,,,o,A,' head="siwA" name="siwA">
+2.1	siwA	NN	<fs af='siwA,n,,,,o,A,' name="siwA" name="siwA">
+	))		
+3	((	VGF	<fs af='vAcci,v,,,,,,' head="vAcceru" name="vAcci">
+3.1	vAcceru	VFM	<fs af='vAcci,v,,,,,,' name="vAcci" name="vAcceru">
+3.2	.	SYM	
+	))		
